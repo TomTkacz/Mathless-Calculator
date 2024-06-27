@@ -13,8 +13,6 @@ try:
 
 	if operation not in ["+", "-", "*", "/"]:
 		raise Exception("invalid operator")
-		print("invalid operator")
-		exit(1)
 
 	num2 = int(input("please enter the second number (0 to 1000): "))
 
